@@ -1,0 +1,36 @@
+2023-04-10 09:30:36.894  WARN 29260 --- [HikariPool-32 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-32 - Thread starvation or clock leap detected (housekeeper delta=2d8h44m4s970ms914µs300ns).
+2023-04-10 09:52:34.697  INFO 29260 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-10 09:52:34.761  INFO 29260 --- [Thread-127] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-10 09:52:34.766  INFO 29260 --- [Thread-127] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-10 09:52:34.802  INFO 29260 --- [Thread-127] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-10 09:52:34.826  INFO 29260 --- [Thread-127] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown initiated...
+2023-04-10 09:52:34.839  INFO 29260 --- [Thread-127] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown completed.
+2023-04-10 09:52:35.340  INFO 29260 --- [restartedMain] c.v.SkyScanner.AirlineReservationSystem  : Starting AirlineReservationSystem using Java 17.0.4.1 on CFLNAVALUR5060 with PID 29260 (C:\Users\SANJAYKUMARV\Desktop\Reavathi project\project-progress-revathi-automating-testing\target\classes started by SANJAYKUMARV in C:\Users\SANJAYKUMARV\Desktop\Reavathi project\project-progress-revathi-automating-testing)
+2023-04-10 09:52:35.340  INFO 29260 --- [restartedMain] c.v.SkyScanner.AirlineReservationSystem  : The following 1 profile is active: "skyscanner"
+2023-04-10 09:52:36.809  INFO 29260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-10 09:52:36.894  INFO 29260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 4 JPA repository interfaces.
+2023-04-10 09:52:37.015  INFO 29260 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d3d9d987] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-10 09:52:37.019  INFO 29260 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-10 09:52:37.211  INFO 29260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-10 09:52:37.212  INFO 29260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-10 09:52:37.214  INFO 29260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-04-10 09:52:37.635  INFO 29260 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-04-10 09:52:37.646  INFO 29260 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-10 09:52:37.648  INFO 29260 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2296 ms
+2023-04-10 09:52:37.764  INFO 29260 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-10 09:52:37.785  INFO 29260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Starting...
+2023-04-10 09:52:37.813  INFO 29260 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Start completed.
+2023-04-10 09:52:37.813  INFO 29260 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-10 09:52:38.009  INFO 29260 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-10 09:52:38.011  INFO 29260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-10 09:52:38.366  WARN 29260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-10 09:52:38.668  INFO 29260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-10 09:52:38.675  INFO 29260 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-04-10 09:52:38.721  INFO 29260 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-10 09:52:38.740  INFO 29260 --- [restartedMain] c.v.SkyScanner.AirlineReservationSystem  : Started AirlineReservationSystem in 3.535 seconds (JVM running for 322777.659)
+2023-04-10 09:52:38.745  INFO 29260 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-10 10:38:42.404  INFO 29260 --- [RMI TCP Connection(265)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-10 10:38:42.456  INFO 29260 --- [RMI TCP Connection(265)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-10 10:38:42.488  INFO 29260 --- [RMI TCP Connection(265)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-10 10:38:42.500  INFO 29260 --- [RMI TCP Connection(265)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown initiated...
+2023-04-10 10:38:42.582  INFO 29260 --- [RMI TCP Connection(265)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown completed.
